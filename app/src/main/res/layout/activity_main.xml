@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="alDigitar"
+    android:stretchColumns="1,2,3,4">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/Texto"
+            style="@style/FuenteNum"
+            android:layout_span="4"
+            android:text="@string/textoInicio"></TextView>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:onClick="botonClear"
+            android:text="@string/buttonClear"></Button>
+
+        <Button
+            android:id="@+id/buttonSigno"
+            android:text="@string/signo"></Button>
+
+        <Button
+            android:id="@+id/buttonPorcentaje"
+            android:onClick="botonPorcentajeClick"
+            android:text="@string/porcentaje"></Button>
+
+        <Button
+            android:id="@+id/buttonDividir"
+            android:backgroundTint="@color/teal_200"
+            android:onClick="botonOperador"
+            android:text="@string/dividir"></Button>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/buttonNum7"
+            android:onClick="botonNumero"
+            android:text="@string/num7"></Button>
+
+        <Button
+            android:id="@+id/buttonNum8"
+            android:onClick="botonNumero"
+            android:text="@string/num8"></Button>
+
+        <Button
+            android:id="@+id/buttonNum9"
+            android:onClick="botonNumero"
+            android:text="@string/num9"></Button>
+
+        <Button
+            android:id="@+id/buttonMultip"
+            android:backgroundTint="@color/teal_200"
+            android:onClick="botonOperador"
+            android:text="@string/multip"></Button>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/buttonNum4"
+            android:onClick="botonNumero"
+            android:text="@string/num4"></Button>
+
+        <Button
+            android:id="@+id/buttonNum5"
+            android:onClick="botonNumero"
+            android:text="@string/num5"></Button>
+
+        <Button
+            android:id="@+id/buttonNum6"
+            android:onClick="botonNumero"
+            android:text="@string/num6"></Button>
+
+        <Button
+            android:id="@+id/buttonResta"
+            android:backgroundTint="@color/teal_200"
+            android:onClick="botonOperador"
+            android:text="@string/resta"></Button>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/buttonNum1"
+            android:onClick="botonNumero"
+            android:text="@string/num1"></Button>
+
+        <Button
+            android:id="@+id/buttonNum2"
+            android:onClick="botonNumero"
+            android:text="@string/num2"></Button>
+
+        <Button
+            android:id="@+id/buttonNum3"
+            android:onClick="botonNumero"
+            android:text="@string/num3"></Button>
+
+        <Button
+            android:id="@+id/buttonSuma"
+            android:backgroundTint="@color/teal_200"
+            android:onClick="botonOperador"
+            android:text="@string/suma"></Button>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/buttonNum0"
+            android:layout_span="2"
+            android:onClick="botonNumero"
+            android:text="@string/num0"></Button>
+
+        <Button
+            android:id="@+id/buttonPunto"
+            android:onClick="botonPuntoDecimal"
+            android:text="@string/punto"></Button>
+
+        <Button
+            android:id="@+id/buttonIgual"
+            android:backgroundTint="@color/teal_200"
+            android:onClick="botonIgual"
+            android:text="@string/igual"></Button>
+    </TableRow>
+</TableLayout>
